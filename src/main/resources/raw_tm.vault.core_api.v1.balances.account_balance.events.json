@@ -1,0 +1,131 @@
+{
+	"event_id": "880001114_662a1e07-d749-4377-b9f3-614a78b5f104",
+	"account_id": "880001114",
+	"posting_instruction_batch_id": "662a1e07-d749-4377-b9f3-614a78b5f104",
+	"balances": [
+		{
+			"id": "1295_662a1e07-d749-4377-b9f3-614a78b5f104",
+			"account_id": "880001114",
+			"account_address": "DEFAULT",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "662a1e07-d749-4377-b9f3-614a78b5f104",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-15T06:42:38.282077Z",
+			"amount": "125824387",
+			"total_debit": "582386509",
+			"total_credit": "708210896"
+		},
+		{
+			"id": "1296_",
+			"account_id": "880001114",
+			"account_address": "DEFAULT",
+			"phase": "POSTING_PHASE_PENDING_INCOMING",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "1970-01-01T00:00:00Z",
+			"amount": "0",
+			"total_debit": "0",
+			"total_credit": "0"
+		},
+		{
+			"id": "1297_662a1e07-d749-4377-b9f3-614a78b5f104",
+			"account_id": "880001114",
+			"account_address": "DEFAULT",
+			"phase": "POSTING_PHASE_PENDING_OUTGOING",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "662a1e07-d749-4377-b9f3-614a78b5f104",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-15T06:42:38.282077Z",
+			"amount": "-10756904",
+			"total_debit": "12241409",
+			"total_credit": "1484505"
+		},
+		{
+			"id": "4291_ad81879c-1f6a-48e0-ace6-8013bf86ef75",
+			"account_id": "880001114",
+			"account_address": "TOTAL_SPENDING_RECORD",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "ad81879c-1f6a-48e0-ace6-8013bf86ef75",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-15T06:40:09.100773Z",
+			"amount": "142497151",
+			"total_debit": "25000",
+			"total_credit": "142522151"
+		},
+		{
+			"id": "4292_4b5b21da-4006-40c7-9571-6de99e6a70c8",
+			"account_id": "880001114",
+			"account_address": "DEBIT_CASA_INTERNAL_TRF",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "4b5b21da-4006-40c7-9571-6de99e6a70c8",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-15T03:41:49.230962Z",
+			"amount": "124405188",
+			"total_debit": "0",
+			"total_credit": "124405188"
+		},
+		{
+			"id": "4293_ad81879c-1f6a-48e0-ace6-8013bf86ef75",
+			"account_id": "880001114",
+			"account_address": "INTERNAL_CONTRA",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "ad81879c-1f6a-48e0-ace6-8013bf86ef75",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-15T06:40:09.100773Z",
+			"amount": "-284994302",
+			"total_debit": "285044302",
+			"total_credit": "50000"
+		},
+		{
+			"id": "4294_00a88516-cae0-4890-a752-d645b4900191",
+			"account_id": "880001114",
+			"account_address": "DEBIT_CASA_INTERBANK_TRF",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "00a88516-cae0-4890-a752-d645b4900191",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-10T11:24:31.547026Z",
+			"amount": "177339",
+			"total_debit": "25000",
+			"total_credit": "202339"
+		},
+		{
+			"id": "4348_ad81879c-1f6a-48e0-ace6-8013bf86ef75",
+			"account_id": "880001114",
+			"account_address": "DEBIT_PHYSICAL_CARD_NOT_PRESENT",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "ad81879c-1f6a-48e0-ace6-8013bf86ef75",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-11-15T06:40:09.100773Z",
+			"amount": "17914624",
+			"total_debit": "0",
+			"total_credit": "17914624"
+		}
+	],
+	"timestamp": "2023-11-15T06:42:38.282077Z",
+	"vault_version": {
+		"major": 4,
+		"minor": 6,
+		"patch": 11,
+		"label": ""
+	},
+	"related_resource": {
+		"type": "RESOURCE_TYPE_ACCOUNT",
+		"id": "880001114",
+		"sequence_number": "293"
+	}
+}

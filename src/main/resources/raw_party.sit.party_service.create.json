@@ -1,0 +1,97 @@
+{
+	"eventType": "PARTY",
+	"eventSubtype": "CREATE",
+	"eventId": "f24e0eef-12b3-4724-82a6-bffe9548a985",
+	"eventTime": "2023-10-10T09:20:58.581785908Z",
+	"details": {
+		"cifNumber": 66012938,
+		"fullNameVn": "VŨ KIM DUNG",
+		"lastNameVn": "VŨ",
+		"firstNameVn": "DUNG",
+		"middleNameVn": "KIM",
+		"nicknameVn": null,
+		"fullNameEn": "VU KIM DUNG",
+		"lastNameEn": "VU",
+		"firstNameEn": "DUNG",
+		"middleNameEn": "KIM",
+		"nicknameEn": null,
+		"username": null,
+		"birthdate": "1993-09-04",
+		"gender": "Female",
+		"nationality": "VN",
+		"onboardPhoneNumber": "+84375566999",
+		"language": "VI",
+		"occupation": "OC001",
+		"jobPosition": "P001",
+		"kycStatus": "Manual",
+		"kycTimestamp": "2023-10-10 09:20:58.0",
+		"tcVersion": "1",
+		"tcAcceptTimestamp": "2023-10-10 09:20:58.0",
+		"onboardingTimestamp": "2023-10-10 09:20:58.473",
+		"isHdbEtb": 0,
+		"status": "Active",
+		"device": {
+			"deviceId": "C343E113-071C-4066-B348-1B2E848397A0"
+		},
+		"addresses": [
+			{
+				"id": 34679,
+				"type": "Origin",
+				"addressFull": "Văn Phú, Thành phố Yên Bái, Yên Bái",
+				"country": null,
+				"province": null,
+				"district": null,
+				"ward": null,
+				"street": null,
+				"houseNumber": null,
+				"postcode": null,
+				"custom": null
+			},
+			{
+				"id": 34680,
+				"type": "Resident",
+				"addressFull": "Gia Cẩm, Thành phố Việt Trì, Phú Thọ",
+				"country": "VietNam",
+				"province": "TỈNH PHÚ THỌ",
+				"district": "THÀNH PHỐ VIỆT TRÌ",
+				"ward": null,
+				"street": "",
+				"houseNumber": "",
+				"postcode": null,
+				"custom": null
+			},
+			{
+				"id": 34681,
+				"type": "Current",
+				"addressFull": "Gia Cẩm, Thành phố Việt Trì, Phú Thọ",
+				"country": "VietNam",
+				"province": null,
+				"district": null,
+				"ward": null,
+				"street": null,
+				"houseNumber": null,
+				"postcode": null,
+				"custom": null
+			}
+		],
+		"partnerCif": null,
+		"isVideoKyc": null,
+		"isRequiredVideoKyc": false,
+		"nationalId": {
+			"type": "CITIZEN_ID_WITH_CHIP",
+			"number": "015193000784",
+			"issueDate": "2021-05-05",
+			"expireDate": "2033-09-04",
+			"issuePlace": "CỤC CẢNH SÁT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI"
+		},
+		"accountMapper": {
+			"cbsCustomer": "66012938",
+			"cbsProductType": "current_account",
+			"csbAccount": "880004278",
+			"cmsCustomer": "66012938",
+			"cmsCardNumber": "2598790",
+			"pan": 23103,
+			"vikkiAccountNumber": 880004278
+		}
+	}
+}

@@ -1,0 +1,254 @@
+[
+    {
+        "code": "ACMTMDOPOTHR",
+        "source_type": "DA",
+        "debit_tran_type": "JDAD",
+        "credit_tran_type": "JDAC",
+        "trans_type": "DEBIT ADJUSTMENT",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": ""
+    },
+    {
+        "code": "ACMTMCOPOTHR",
+        "source_type": "CA",
+        "debit_tran_type": "JCAD",
+        "credit_tran_type": "JCAC",
+        "trans_type": "CREDIT ADJUSTMENT",
+        "debit_gl_code": "",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "ACMTNTAVNTAV",
+        "source_type": "IA",
+        "debit_tran_type": "JIAD",
+        "credit_tran_type": "JIAC",
+        "trans_type": "INTERNAL ADJUSTMENT",
+        "debit_gl_code": "",
+        "credit_gl_code": ""
+    },
+    {
+        "code": "PMNTIRCTOTHR",
+        "source_type": "OQ",
+        "debit_tran_type": "OQDR",
+        "credit_tran_type": "OQCR",
+        "trans_type": "[CASHOUT] VIKKI-TO-NAPAS QR (external bank not HDBank)",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "245990013"
+    },
+    {
+        "code": "ACMTMCOPINTR",
+        "source_type": "ID",
+        "debit_tran_type": "PIDD",
+        "credit_tran_type": "PIDC",
+        "trans_type": "CALCULATE DAILY INTEREST",
+        "debit_gl_code": "480100007",
+        "credit_gl_code": "249110001"
+    },
+    {
+        "code": "PMNTICDTINTR",
+        "source_type": "IP",
+        "debit_tran_type": "NIPD",
+        "credit_tran_type": "NIPC",
+        "trans_type": "PAY INTEREST TO CUSTOMER",
+        "debit_gl_code": "480100003",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "ACMTMCOPVALD",
+        "source_type": "IL",
+        "debit_tran_type": "NILD",
+        "credit_tran_type": "NILC",
+        "trans_type": "REVERT CALCULATED INTEREST LUMP SUM",
+        "debit_gl_code": "249110001",
+        "credit_gl_code": "480100007"
+    },
+    {
+        "code": "PMNTIRCTBOOK",
+        "source_type": "VD",
+        "debit_tran_type": "TVDD",
+        "credit_tran_type": "TVDC",
+        "trans_type": "VIKKI-TO-VIKKI",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "PMNTRRCTBOOK",
+        "source_type": "VC",
+        "debit_tran_type": "TVCD",
+        "credit_tran_type": "TVCC",
+        "trans_type": "VIKKI-TO-VIKKI",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "PMNTIRCTHDBA",
+        "source_type": "OH",
+        "debit_tran_type": "TOHD",
+        "credit_tran_type": "TOHC",
+        "trans_type": "[CASHOUT] VIKKI-TO-HDBANK",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "251920000"
+    },
+    {
+        "code": "PMNTIRCTDMCT",
+        "source_type": "ON",
+        "debit_tran_type": "TOND",
+        "credit_tran_type": "TONC",
+        "trans_type": "[CASHOUT] VIKKI-TO-NAPAS 24/7",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "245990031"
+    },
+    {
+        "code": "PMNTRRCTHDBA",
+        "source_type": "HV",
+        "debit_tran_type": "THVD",
+        "credit_tran_type": "THVC",
+        "trans_type": "[CASH-IN] HDBANK TO VIKKI CURRENT ACC",
+        "debit_gl_code": "251920000",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "PMNTRRCTDMCT",
+        "source_type": "NV",
+        "debit_tran_type": "TNVD",
+        "credit_tran_type": "TNVC",
+        "trans_type": "[CASH-IN] NAPAS TO VIKKI CURRENT ACC",
+        "debit_gl_code": "135920096",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "PMNTCCRDECOM",
+        "source_type": "OP",
+        "debit_tran_type": "AOPD",
+        "credit_tran_type": "AOPC",
+        "trans_type": "DOMESTIC ONLINE CARD PAYMENT",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "245990053"
+    },
+    {
+        "code": "PMNTCCRDXBCP",
+        "source_type": "FP",
+        "debit_tran_type": "AFPD",
+        "credit_tran_type": "AFPC",
+        "trans_type": "FOREIGN ONLINE CARD PAYMENT",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "245990053"
+    },
+    {
+        "code": "PMNTCCRDFEES",
+        "source_type": "FF",
+        "debit_tran_type": "AFFD",
+        "credit_tran_type": "AFFC",
+        "trans_type": "FOREIGN ONLINE CARD PAYMENT",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "371109017"
+    },
+    {
+        "code": "PMNTCCRDTAXE",
+        "source_type": "MD",
+        "debit_tran_type": "AMDD",
+        "credit_tran_type": "AMDC",
+        "trans_type": "FOREIGN ONLINE CARD PAYMENT",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "245310000"
+    },
+    {
+        "code": "PMNTRCDTRRTN",
+        "source_type": "FP",
+        "debit_tran_type": "AFPD",
+        "credit_tran_type": "AFPC",
+        "trans_type": "DEBIT CARD REFUND",
+        "debit_gl_code": "245990053",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "LDASFTDPDPST",
+        "source_type": "OS",
+        "debit_tran_type": "DOSD",
+        "credit_tran_type": "DOSC",
+        "trans_type": "OPEN TERM SAVINGS FROM VIKKI CASA",
+        "debit_gl_code": "242119000",
+        "credit_gl_code": "242320000"
+    },
+    {
+        "code": "LDASFTDPINTR",
+        "source_type": "IA",
+        "debit_tran_type": "PIAD",
+        "credit_tran_type": "PIAC",
+        "trans_type": "ACCRUAL DAILY INTEREST PAYMENT",
+        "debit_gl_code": "480100007",
+        "credit_gl_code": "249130002"
+    },
+    {
+        "code": "LDASMCOPVALD",
+        "source_type": "BR",
+        "debit_tran_type": "NBRD",
+        "credit_tran_type": "NBRC",
+        "trans_type": "BEFORE-DUE-DATE WITHDRAWAL",
+        "debit_gl_code": "249130002",
+        "credit_gl_code": "480100007"
+    },
+    {
+        "code": "LDASMCOPINTR",
+        "source_type": "BC",
+        "debit_tran_type": "NBCD",
+        "credit_tran_type": "NBCC",
+        "trans_type": "BEFORE-DUE-DATE WITHDRAWAL",
+        "debit_gl_code": "480100006",
+        "credit_gl_code": "242320000"
+    },
+    {
+        "code": "PMNTMCOPINTR",
+        "source_type": "BI",
+        "debit_tran_type": "DBID",
+        "credit_tran_type": "DBIC",
+        "trans_type": "BEFORE-DUE-DATE WITHDRAWAL",
+        "debit_gl_code": "242320000",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "PMNTMCOPBOOK",
+        "source_type": "BP",
+        "debit_tran_type": "DBPD",
+        "credit_tran_type": "DBPC",
+        "trans_type": "BEFORE-DUE-DATE WITHDRAWAL",
+        "debit_gl_code": "242320000",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "LDASFTDPVALD",
+        "source_type": "MR",
+        "debit_tran_type": "NMRD",
+        "credit_tran_type": "NMRC",
+        "trans_type": "AT-MATURITY-DATE TERM SAVINGS",
+        "debit_gl_code": "249130002",
+        "credit_gl_code": "480100007"
+    },
+    {
+        "code": "LDASFTDPINTR",
+        "source_type": "MC",
+        "debit_tran_type": "NMCD",
+        "credit_tran_type": "NMCC",
+        "trans_type": "AT-MATURITY-DATE TERM SAVINGS",
+        "debit_gl_code": "480100006",
+        "credit_gl_code": "242320000"
+    },
+    {
+        "code": "PMNTFTDPINTR",
+        "source_type": "MI",
+        "debit_tran_type": "NMID",
+        "credit_tran_type": "NMIC",
+        "trans_type": "AT-MATURITY-DATE TERM SAVINGS",
+        "debit_gl_code": "242320000",
+        "credit_gl_code": "242119000"
+    },
+    {
+        "code": "PMNTFTDPBOOK",
+        "source_type": "MP",
+        "debit_tran_type": "DMPD",
+        "credit_tran_type": "DMPC",
+        "trans_type": "AT-MATURITY-DATE TERM SAVINGS",
+        "debit_gl_code": "242320000",
+        "credit_gl_code": "242119000"
+    }
+]

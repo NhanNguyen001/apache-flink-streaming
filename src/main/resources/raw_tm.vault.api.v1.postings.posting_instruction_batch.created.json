@@ -1,0 +1,143 @@
+{
+	"posting_instruction_batch": {
+		"id": "4306bf22-dd25-49ed-a7c9-8c15726547ed",
+		"create_request_id": "SETTLEMENTFT2311240000091",
+		"client_id": "interbank_transfer",
+		"client_batch_id": "FT2311240000091",
+		"posting_instructions": [
+			{
+				"id": "9df2528a-4ae2-49b3-b10d-f17c6274ecbe",
+				"client_transaction_id": "FT2311240000091-0",
+				"inbound_hard_settlement": {
+					"amount": "100000000",
+					"denomination": "VND",
+					"target_account": {
+						"account_id": "880006122"
+					},
+					"internal_account_id": "135920096.00",
+					"advice": false,
+					"target_account_id": "880006122"
+				},
+				"pics": [],
+				"instruction_details": {
+					"auth_code": "137002",
+					"bank_code": "970436",
+					"banking_product": "MONEY TRANSFER",
+					"beneficiary_party_id": "66008421",
+					"channel": "NAPAS",
+					"created_date": "2023-11-24T07:40:17.576332594",
+					"currency": "VND",
+					"data_raw_request": "",
+					"force_post": "false",
+					"from_account": "0421000487800",
+					"is_fee": "false",
+					"local_transaction_date": "",
+					"local_transaction_time": "",
+					"mti": "100",
+					"narrative": "FinX Bonus Release",
+					"processing_code": "234323",
+					"receiver_name": "TRAN QUANG HUY",
+					"reference_number": "327941270500",
+					"rtf_posting_type": "SETTLEMENT",
+					"rtf_type": "CASA",
+					"sender_name": "GALAXY HR Vietnam",
+					"service_code": "231232",
+					"to_account": "880006122",
+					"trans_type_name": "[CASH-IN] NAPAS TO VIKKI CURRENT ACC",
+					"transaction_code": "NAPAS_TO_VIKKI",
+					"transmission_datetime": "2023-11-23T14:19:30.673"
+				},
+				"committed_postings": [
+					{
+						"credit": true,
+						"amount": "100000000",
+						"denomination": "VND",
+						"account_id": "880006122",
+						"account_address": "DEFAULT",
+						"asset": "COMMERCIAL_BANK_MONEY",
+						"phase": "POSTING_PHASE_COMMITTED"
+					},
+					{
+						"credit": false,
+						"amount": "100000000",
+						"denomination": "VND",
+						"account_id": "135920096.00",
+						"account_address": "DEFAULT",
+						"asset": "COMMERCIAL_BANK_MONEY",
+						"phase": "POSTING_PHASE_COMMITTED"
+					}
+				],
+				"posting_violations": [],
+				"account_violations": [],
+				"restriction_violations": [],
+				"contract_violations": [],
+				"override": {
+					"restrictions": {
+						"all": false,
+						"restriction_set_ids": []
+					}
+				},
+				"transaction_code": null
+			}
+		],
+		"batch_details": {
+			"auth_code": "137002",
+			"bank_code": "970436",
+			"banking_product": "MONEY TRANSFER",
+			"beneficiary_party_id": "66008421",
+			"channel": "NAPAS",
+			"created_date": "2023-11-24T07:40:17.576332594",
+			"currency": "VND",
+			"data_raw_request": "",
+			"force_post": "false",
+			"from_account": "0421000487800",
+			"is_fee": "false",
+			"local_transaction_date": "",
+			"local_transaction_time": "",
+			"mti": "100",
+			"narrative": "FinX Bonus Release",
+			"processing_code": "234323",
+			"receiver_name": "TRAN QUANG HUY",
+			"reference_number": "327941270500",
+			"rtf_posting_type": "SETTLEMENT",
+			"rtf_type": "CASA",
+			"sender_name": "GALAXY HR Vietnam",
+			"service_code": "231232",
+			"to_account": "880006122",
+			"trans_type_name": "[CASH-IN] NAPAS TO VIKKI CURRENT ACC",
+			"transaction_code": "NAPAS_TO_VIKKI",
+			"transmission_datetime": "2023-11-23T14:19:30.673"
+		},
+		"value_timestamp": "2023-11-24T07:40:17.905738Z",
+		"status": "POSTING_INSTRUCTION_BATCH_STATUS_ACCEPTED",
+		"error": null,
+		"insertion_timestamp": "2023-11-24T07:40:17.905738Z",
+		"dry_run": false
+	},
+	"technical_metadata": {
+		"event_id": "event_4306bf22-dd25-49ed-a7c9-8c15726547ed",
+		"capture_timestamp": "2023-11-24T07:40:17.925326216Z",
+		"vault_version": {
+			"major": 4,
+			"minor": 6,
+			"patch": 11,
+			"label": ""
+		},
+		"context": {}
+	},
+	"update_mask": {
+		"paths": [
+			"posting_instruction_batch",
+			"technical_metadata"
+		]
+	},
+	"event_id": "SETTLEMENTFT2311240000091interbank_transfer",
+	"vault_version": {
+		"major": 4,
+		"minor": 6,
+		"patch": 11,
+		"label": ""
+	},
+	"timestamp": "2023-11-24T07:40:17.905738Z",
+	"change_id": "0"
+}

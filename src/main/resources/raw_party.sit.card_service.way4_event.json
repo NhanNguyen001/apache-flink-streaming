@@ -1,0 +1,29 @@
+{
+	"cif": "66005489",
+	"eventType": "CARD_CREATION",
+	"eventSubType": "VIRTUAL_CARD",
+	"requestId": "4fe47d48-bbc6-472c-ae6b-53cb537f5adf",
+	"createdBy": "card-service",
+	"createdDateTime": 1699239918693,
+	"request": {
+		"branch": "0001",
+		"firstName": "VAN TAI",
+		"lastName": "TRAN",
+		"birthDate": "1990-03-24",
+		"embossedFirstName": "VAN TAI",
+		"embossedLastName": "TRAN",
+		"identityCardNumber": "075090006649",
+		"clientNumber": "66005489",
+		"mobilePhone": "+84773246232",
+		"city": "TINH DONG NAI",
+		"cbsNumber1": "880009268"
+	},
+	"response": {
+		"contractNumber": "257643690769",
+		"cardId": "2798620",
+		"cardNumber": "529136******7222",
+		"expirityDate": null,
+		"onboardingId": "1170920766170406912",
+		"crdSegmentCode": "PERSONAL"
+	}
+}

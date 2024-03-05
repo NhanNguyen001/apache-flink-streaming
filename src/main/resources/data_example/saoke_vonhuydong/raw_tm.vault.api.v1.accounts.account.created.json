@@ -1,0 +1,66 @@
+{
+  "account": {
+    "id": "T240000502",
+    "name": "Time Deposit",
+    "product_id": "time_deposit",
+    "product_version_id": "1873",
+    "permitted_denominations": [
+      "VND"
+    ],
+    "status": "ACCOUNT_STATUS_OPEN",
+    "opening_timestamp": "2023-12-23T09:00:00Z",
+    "closing_timestamp": null,
+    "stakeholder_ids": [
+      "66003757"
+    ],
+    "instance_param_vals": {
+      "account_type": "time_deposit",
+      "annual_interest_rate": "0.0356",
+      "auto_renewal_type": "no_renewal",
+      "deposit_account": "880007025",
+      "deposit_start_datetime": "2023-12-23T09:00:00Z",
+      "principal": "100000000",
+      "status": "active",
+      "tenor_amount": "1",
+      "tenor_unit": "month"
+    },
+    "derived_instance_param_vals": {},
+    "details": {},
+    "accounting": {
+      "tside": "TSIDE_LIABILITY"
+    }
+  },
+  "technical_metadata": {
+    "event_id": "9bd172cb-4f2b-474c-8464-898edcc7e128",
+    "capture_timestamp": "2024-01-24T06:26:37.079708Z",
+    "vault_version": {
+      "major": 4,
+      "minor": 6,
+      "patch": 11,
+      "label": ""
+    },
+    "context": {}
+  },
+  "update_mask": {
+    "paths": [
+      "name",
+      "product_id",
+      "status",
+      "stakeholder_ids",
+      "instance_param_vals",
+      "accounting",
+      "id",
+      "product_version_id",
+      "permitted_denominations",
+      "opening_timestamp",
+      "derived_instance_param_vals",
+      "details",
+      "technical_metadata.context",
+      "technical_metadata.event_id",
+      "technical_metadata.capture_timestamp",
+      "technical_metadata.vault_version.major",
+      "technical_metadata.vault_version.minor",
+      "technical_metadata.vault_version.patch"
+    ]
+  }
+}

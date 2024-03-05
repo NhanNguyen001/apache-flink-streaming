@@ -1,0 +1,137 @@
+{
+  "posting_instruction_batch": {
+    "id": "eea11646-23e6",
+    "create_request_id": "SETTLEMENTFT24011800000001",
+    "client_id": "internal_transfer",
+    "client_batch_id": "FT24011800000001",
+    "posting_instructions": [
+      {
+        "id": "75b2829e-1b09-41d2-bf77-280cb508a095",
+        "client_transaction_id": "FT24011800000001_0",
+        "transfer": {
+          "amount": "150000",
+          "denomination": "VND",
+          "debtor_target_account": {
+            "account_id": "880001091"
+          },
+          "debtor_target_account_id": "880001091",
+          "creditor_target_account": {
+            "account_id": "880006075"
+          },
+          "creditor_target_account_id": "880006075"
+        },
+        "pics": [],
+        "instruction_details": {
+          "X-Request-ID": "4c0d42d1-c6e0-4bb7-af7c-550b187f4cbd",
+          "X-Service-Name": "payment-service",
+          "banking_product": "MONEY TRANSFER",
+          "beneficiary_party_id": "66003005",
+          "channel": "INTRA",
+          "created_date": "2024-01-18T01:56:27.196574005",
+          "currency": "VND",
+          "force_post": "false",
+          "from_account": "880001091",
+          "is_fee": "false",
+          "narrative": "Nguyen Quan transfers",
+          "receiver_name": "LE HONG NHIEN",
+          "remitter_party_id": "66008549",
+          "rtf_posting_type": "SETTLEMENT",
+          "rtf_type": "CASA",
+          "sender_name": "NGUYEN QUAN",
+          "to_account": "880006075",
+          "trans_type_name": "VIKKI-TO-VIKKI",
+          "transaction_code": "VIKKI_TO_VIKKI,INTERNAL_TRANSFER,E_BANKING,CASA",
+          "transmission_datetime": "2024-01-18T01:56:27.173650711"
+        },
+        "committed_postings": [
+          {
+            "credit": false,
+            "amount": "150000",
+            "denomination": "VND",
+            "account_id": "880001091",
+            "account_address": "DEFAULT",
+            "asset": "COMMERCIAL_BANK_MONEY",
+            "phase": "POSTING_PHASE_COMMITTED"
+          },
+          {
+            "credit": true,
+            "amount": "150000",
+            "denomination": "VND",
+            "account_id": "601010000.00",
+            "account_address": "DEFAULT",
+            "asset": "COMMERCIAL_BANK_MONEY",
+            "phase": "POSTING_PHASE_COMMITTED"
+          }
+        ],
+        "posting_violations": [],
+        "account_violations": [],
+        "restriction_violations": [],
+        "contract_violations": [],
+        "override": {
+          "restrictions": {
+            "all": false,
+            "restriction_set_ids": []
+          }
+        },
+        "transaction_code": {
+          "domain": "PMNT",
+          "family": "IRCT",
+          "subfamily": "BOOK"
+        }
+      }
+    ],
+    "batch_details": {
+      "X-Request-ID": "4c0d42d1-c6e0-4bb7-af7c-550b187f4cbd",
+      "X-Service-Name": "payment-service",
+      "banking_product": "MONEY TRANSFER",
+      "beneficiary_party_id": "66003005",
+      "channel": "INTRA",
+      "created_date": "2024-01-18T01:56:27.196574005",
+      "currency": "VND",
+      "force_post": "false",
+      "from_account": "880001091",
+      "is_fee": "false",
+      "narrative": "Nguyen Quan transfers",
+      "receiver_name": "LE HONG NHIEN",
+      "remitter_party_id": "66008549",
+      "rtf_posting_type": "SETTLEMENT",
+      "rtf_type": "CASA",
+      "sender_name": "NGUYEN QUAN",
+      "to_account": "880006075",
+      "trans_type_name": "VIKKI-TO-VIKKI",
+      "transaction_code": "VIKKI_TO_VIKKI,INTERNAL_TRANSFER,E_BANKING,CASA",
+      "transmission_datetime": "2024-01-18T01:56:27.173650711"
+    },
+    "value_timestamp": "2024-01-18T01:56:27.378756Z",
+    "status": "POSTING_INSTRUCTION_BATCH_STATUS_ACCEPTED",
+    "error": null,
+    "insertion_timestamp": "2024-01-18T01:56:27.378756Z",
+    "dry_run": false
+  },
+  "technical_metadata": {
+    "event_id": "event_eea11646-23e6-474d-b18d-c9e3f1d20dbd",
+    "capture_timestamp": "2024-01-18T01:56:27.408151553Z",
+    "vault_version": {
+      "major": 4,
+      "minor": 6,
+      "patch": 11,
+      "label": ""
+    },
+    "context": {}
+  },
+  "update_mask": {
+    "paths": [
+      "posting_instruction_batch",
+      "technical_metadata"
+    ]
+  },
+  "event_id": "SETTLEMENTFT24011800000001internal_transfer",
+  "vault_version": {
+    "major": 4,
+    "minor": 6,
+    "patch": 11,
+    "label": ""
+  },
+  "timestamp": "2024-01-18T01:56:27.378756Z",
+  "change_id": "0"
+}

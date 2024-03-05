@@ -1,0 +1,26 @@
+{
+	"id": "174",
+	"param": {
+		"name": "mastercard_payable_account",
+		"display_name": "Mastercard Payable Account",
+		"description": "This is the GL account for applying accrued interest",
+		"value": "e2e_L_245990054",
+		"default_value": "",
+		"effective_timestamp": "1970-01-01T00:00:00Z",
+		"level": "LEVEL_PRODUCT",
+		"update_permission": "UPDATE_PERMISSION_UNKNOWN",
+		"derived": false,
+		"is_optional": false
+	},
+	"technical_metadata": {
+		"event_id": "1029",
+		"capture_timestamp": "2023-10-11T12:31:08.522274163Z",
+		"vault_version": {
+			"major": 4,
+			"minor": 5,
+			"patch": 3,
+			"label": ""
+		},
+		"context": {}
+	}
+}

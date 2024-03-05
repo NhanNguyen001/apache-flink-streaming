@@ -1,0 +1,8 @@
+.vscode
+.idea
+target
+lib
+test.sh
+**/.ipynb_checkpoint/*
+**/.ipynb_checkpoint/
+test.sh

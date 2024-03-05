@@ -1,0 +1,103 @@
+{
+	"event_id": "311028db-e091-41f0-ba65-e04bf6942fc9_7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+	"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+	"posting_instruction_batch_id": "7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+	"balances": [
+		{
+			"id": "94201_",
+			"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+			"account_address": "DEFAULT",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "1970-01-01T00:00:00Z",
+			"amount": "0",
+			"total_debit": "0",
+			"total_credit": "0"
+		},
+		{
+			"id": "94202_",
+			"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+			"account_address": "DEFAULT",
+			"phase": "POSTING_PHASE_PENDING_INCOMING",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "1970-01-01T00:00:00Z",
+			"amount": "0",
+			"total_debit": "0",
+			"total_credit": "0"
+		},
+		{
+			"id": "94203_",
+			"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+			"account_address": "DEFAULT",
+			"phase": "POSTING_PHASE_PENDING_OUTGOING",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "1970-01-01T00:00:00Z",
+			"amount": "0",
+			"total_debit": "0",
+			"total_credit": "0"
+		},
+		{
+			"id": "94204_7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+			"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+			"account_address": "EMI",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-09-14T00:00:00Z",
+			"amount": "5000000",
+			"total_debit": "5000000",
+			"total_credit": "0"
+		},
+		{
+			"id": "94205_7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+			"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+			"account_address": "INTERNAL_CONTRA",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-09-14T00:00:00Z",
+			"amount": "-5000000",
+			"total_debit": "0",
+			"total_credit": "5000000"
+		},
+		{
+			"id": "94206_7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+			"account_id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+			"account_address": "PRINCIPAL",
+			"phase": "POSTING_PHASE_COMMITTED",
+			"asset": "COMMERCIAL_BANK_MONEY",
+			"denomination": "VND",
+			"posting_instruction_batch_id": "7eb5fd4f-d078-45d1-b37d-42654b64e70c",
+			"update_posting_instruction_batch_id": "",
+			"value_time": "2023-09-14T00:00:00Z",
+			"amount": "5000000",
+			"total_debit": "5000000",
+			"total_credit": "0"
+		}
+	],
+	"timestamp": "2023-10-03T04:44:43.678811Z",
+	"vault_version": {
+		"major": 4,
+		"minor": 5,
+		"patch": 3,
+		"label": ""
+	},
+	"related_resource": {
+		"type": "RESOURCE_TYPE_ACCOUNT",
+		"id": "311028db-e091-41f0-ba65-e04bf6942fc9",
+		"sequence_number": "1"
+	}
+}

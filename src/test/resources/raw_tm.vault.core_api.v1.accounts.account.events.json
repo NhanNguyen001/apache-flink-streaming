@@ -1,0 +1,36 @@
+{
+	"event_id": "8ccd6f9f-1eba-428b-a871-a22551982a7d",
+	"timestamp": "2023-09-14T11:27:04.343034Z",
+	"vault_version": {
+		"major": 4,
+		"minor": 5,
+		"patch": 3,
+		"label": ""
+	},
+	"change_id": "0",
+	"account_created": {
+		"account": {
+			"id": "880003596",
+			"name": "Current Account",
+			"product_id": "current_account",
+			"product_version_id": "125",
+			"permitted_denominations": [
+				"VND"
+			],
+			"status": "ACCOUNT_STATUS_OPEN",
+			"opening_timestamp": "2023-09-14T11:27:04.327647Z",
+			"closing_timestamp": null,
+			"stakeholder_ids": [
+				"66013829"
+			],
+			"instance_param_vals": {
+				"customer_debit_daily_limit": ""
+			},
+			"derived_instance_param_vals": {},
+			"details": {},
+			"accounting": {
+				"tside": "TSIDE_LIABILITY"
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "cif": "66005500",
+    "eventType": "CARD_CREATION",
+    "eventSubType": "VIRTUAL_CARD",
+    "requestId": "9d45002d-f9ab-4d65-91d8-da3a62bcbe7f",
+    "createdBy": "card-service",
+    "createdDateTime": 1699243871676,
+    "request": {
+        "branch": "0001",
+        "firstName": "NGUYEN THANH THANH",
+        "lastName": "LE",
+        "birthDate": "1993-10-17",
+        "embossedFirstName": "NGUYEN THANH THANH",
+        "embossedLastName": "LE",
+        "identityCardNumber": "082193013605",
+        "clientNumber": "66005500",
+        "mobilePhone": "+84982046885",
+        "city": "TINH TIEN GIANG",
+        "cbsNumber1": "880009310"
+    },
+    "response": {
+        "contractNumber": "251114594921",
+        "cardId": "2798800",
+        "cardNumber": "529136******6267",
+        "expirityDate": null,
+        "onboardingId": "1170937807493341184",
+        "crdSegmentCode": "PERSONAL"
+    }
+}

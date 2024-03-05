@@ -1,0 +1,89 @@
+{
+  "event_id": "880000993_190ff512-0744-4613-a164-5a831172a3a9",
+  "account_id": "880000993",
+  "posting_instruction_batch_id": "190ff512-0744-4613-a164-5a831172a3a9",
+  "balances": [
+    {
+      "id": "87714_190ff512-0744-4613-a164-5a831172a3a9",
+      "account_id": "880000993",
+      "account_address": "DEFAULT",
+      "phase": "POSTING_PHASE_COMMITTED",
+      "asset": "COMMERCIAL_BANK_MONEY",
+      "denomination": "VND",
+      "posting_instruction_batch_id": "190ff512-0744-4613-a164-5a831172a3a9",
+      "update_posting_instruction_batch_id": "",
+      "value_time": "2024-01-24T03:30:10.631637Z",
+      "amount": "83030000",
+      "total_debit": "0",
+      "total_credit": "83030000"
+    },
+    {
+      "id": "87715_",
+      "account_id": "880000993",
+      "account_address": "DEFAULT",
+      "phase": "POSTING_PHASE_PENDING_INCOMING",
+      "asset": "COMMERCIAL_BANK_MONEY",
+      "denomination": "VND",
+      "posting_instruction_batch_id": "",
+      "update_posting_instruction_batch_id": "",
+      "value_time": "1970-01-01T00:00:00Z",
+      "amount": "0",
+      "total_debit": "0",
+      "total_credit": "0"
+    },
+    {
+      "id": "87716_",
+      "account_id": "880000993",
+      "account_address": "DEFAULT",
+      "phase": "POSTING_PHASE_PENDING_OUTGOING",
+      "asset": "COMMERCIAL_BANK_MONEY",
+      "denomination": "VND",
+      "posting_instruction_batch_id": "",
+      "update_posting_instruction_batch_id": "",
+      "value_time": "1970-01-01T00:00:00Z",
+      "amount": "0",
+      "total_debit": "0",
+      "total_credit": "0"
+    },
+    {
+      "id": "88133_f2fdbd55-b9d9-4f67-b05d-f6111e906f34",
+      "account_id": "880000993",
+      "account_address": "INTERNAL_CONTRA",
+      "phase": "POSTING_PHASE_COMMITTED",
+      "asset": "COMMERCIAL_BANK_MONEY",
+      "denomination": "VND",
+      "posting_instruction_batch_id": "f2fdbd55-b9d9-4f67-b05d-f6111e906f34",
+      "update_posting_instruction_batch_id": "",
+      "value_time": "2024-01-23T10:59:59.999998Z",
+      "amount": "-835.89",
+      "total_debit": "835.89",
+      "total_credit": "0"
+    },
+    {
+      "id": "88134_f2fdbd55-b9d9-4f67-b05d-f6111e906f34",
+      "account_id": "880000993",
+      "account_address": "ACCRUAL_INTEREST",
+      "phase": "POSTING_PHASE_COMMITTED",
+      "asset": "COMMERCIAL_BANK_MONEY",
+      "denomination": "VND",
+      "posting_instruction_batch_id": "f2fdbd55-b9d9-4f67-b05d-f6111e906f34",
+      "update_posting_instruction_batch_id": "",
+      "value_time": "2024-01-23T10:59:59.999998Z",
+      "amount": "835.89",
+      "total_debit": "0",
+      "total_credit": "835.89"
+    }
+  ],
+  "timestamp": "2024-01-24T03:30:10.631637Z",
+  "vault_version": {
+    "major": 4,
+    "minor": 6,
+    "patch": 11,
+    "label": ""
+  },
+  "related_resource": {
+    "type": "RESOURCE_TYPE_ACCOUNT",
+    "id": "880000993",
+    "sequence_number": "24"
+  }
+}

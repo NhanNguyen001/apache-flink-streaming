@@ -1,0 +1,230 @@
+[
+  {
+    "acctId": "121910002.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "121910003.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "121910004.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "121910005.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "121920000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135320000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135920017.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135920017.01",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135920096.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135920096.01",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135920099.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "139419000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245310000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990009.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990013.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990013.01",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990031.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990031.01",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990053.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990053.01",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990054.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990054.01",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "247110000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "247123700.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "249110001.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "249110002.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "249130002.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "251990004.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "370209000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "370209900.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "371100017.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "371109017.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "371909001.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "379000099.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "480100004.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "480100005.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "480100006.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "480100007.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "481100012.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "486600002.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "488220000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "489000003.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "489900003.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "594100001.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "597110000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "597120000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "601010000.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "601010001.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "135920026.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "245990026.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "247121400.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "247124100.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "251990005.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "251990006.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "371100012.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "371109002.00",
+    "acctType": "internal_account"
+  },
+  {
+    "acctId": "480100003.00",
+    "acctType": "internal_account"
+  }
+]

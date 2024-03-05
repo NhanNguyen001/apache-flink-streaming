@@ -1,0 +1,123 @@
+{
+    "event_id": "SETTLEMENTFT2311230000018internal_transfer",
+    "vault_version": {
+        "patch": 11,
+        "major": 4,
+        "minor": 6,
+        "label": ""
+    },
+    "change_id": "0",
+    "update_mask": {
+        "paths": [
+            "posting_instruction_batch",
+            "technical_metadata"
+        ]
+    },
+    "posting_instruction_batch": {
+        "value_timestamp": "2023-11-23T04:02:53.598322Z",
+        "client_batch_id": "FT2311230000018",
+        "insertion_timestamp": "2023-11-23T04:02:53.598322Z",
+        "create_request_id": "SETTLEMENTFT2311230000018",
+        "batch_details": {
+            "transaction_code": "VIKKI_TO_VIKKI,E-BANKING,CASA",
+            "from_account": "880006051",
+            "narrative": "Ngoc Lan Anh Tuyet Mai Mon Leo Ne chuyen tien",
+            "beneficiary_party_id": "66008392",
+            "channel": "INTRA",
+            "sender_name": "Ngoc Lan Anh Tuyet Mai Mon Leo Ne",
+            "rtf_type": "CASA",
+            "rtf_posting_type": "SETTLEMENT",
+            "receiver_name": "PHAM THI KIM THANH",
+            "currency": "VND",
+            "created_date": "2023-11-23T04:02:53.505190761",
+            "remitter_party_id": "66002984",
+            "is_fee": "false",
+            "to_account": "880006123",
+            "transmission_datetime": "2023-11-23T04:02:53.500901891"
+        },
+        "posting_instructions": [
+            {
+                "contract_violations": [],
+                "transaction_code": null,
+                "transfer": {
+                    "debtor_target_account": {
+                        "account_id": "880006051"
+                    },
+                    "amount": "10000",
+                    "creditor_target_account_id": "880006123",
+                    "creditor_target_account": {
+                        "account_id": "880006123"
+                    },
+                    "debtor_target_account_id": "880006051",
+                    "denomination": "VND"
+                },
+                "committed_postings": [
+                    {
+                        "phase": "POSTING_PHASE_COMMITTED",
+                        "amount": "10000",
+                        "account_id": "880006051",
+                        "account_address": "DEFAULT",
+                        "credit": false,
+                        "asset": "COMMERCIAL_BANK_MONEY",
+                        "denomination": "VND"
+                    },
+                    {
+                        "phase": "POSTING_PHASE_COMMITTED",
+                        "amount": "10000",
+                        "account_id": "880006123",
+                        "account_address": "DEFAULT",
+                        "credit": true,
+                        "asset": "COMMERCIAL_BANK_MONEY",
+                        "denomination": "VND"
+                    }
+                ],
+                "account_violations": [],
+                "restriction_violations": [],
+                "posting_violations": [],
+                "instruction_details": {
+                    "transaction_code": "VIKKI_TO_VIKKI,E-BANKING,CASA",
+                    "from_account": "880006051",
+                    "narrative": "Ngoc Lan Anh Tuyet Mai Mon Leo Ne chuyen tien",
+                    "beneficiary_party_id": "66008392",
+                    "channel": "INTRA",
+                    "sender_name": "Ngoc Lan Anh Tuyet Mai Mon Leo Ne",
+                    "rtf_type": "CASA",
+                    "rtf_posting_type": "SETTLEMENT",
+                    "receiver_name": "PHAM THI KIM THANH",
+                    "currency": "VND",
+                    "created_date": "2023-11-23T04:02:53.505190761",
+                    "remitter_party_id": "66002984",
+                    "is_fee": "false",
+                    "to_account": "880006123",
+                    "transmission_datetime": "2023-11-23T04:02:53.500901891"
+                },
+                "id": "411e5f3d-f0a6-452a-94cf-c2f0ed433f50",
+                "override": {
+                    "restrictions": {
+                        "all": false,
+                        "restriction_set_ids": []
+                    }
+                },
+                "client_transaction_id": "FT2311230000018_0",
+                "pics": []
+            }
+        ],
+        "dry_run": false,
+        "id": "4f845c4d-779a-4540-91bb-125a746f84a8",
+        "error": null,
+        "client_id": "internal_transfer",
+        "status": "POSTING_INSTRUCTION_BATCH_STATUS_ACCEPTED"
+    },
+    "technical_metadata": {
+        "event_id": "event_4f845c4d-779a-4540-91bb-125a746f84a8",
+        "vault_version": {
+            "patch": 11,
+            "major": 4,
+            "minor": 6,
+            "label": ""
+        },
+        "context": {},
+        "capture_timestamp": "2023-11-23T04:02:53.616944406Z"
+    },
+    "timestamp": "2023-11-23T04:02:53.598322Z"
+}

@@ -1,0 +1,95 @@
+{
+    "posting_instruction_batch": {
+        "id": "1d60b1b7-80d2-438a-bc6c-d536c95781a8",
+        "create_request_id": "2f6e1025-2eb8-4536-9c82-e441ba382bdb",
+        "client_id": "card_transactions",
+        "client_batch_id": "12325410649945",
+        "posting_instructions": [
+            {
+                "id": "bb7c1065-537e-485d-b04f-a1fa346f4edd",
+                "client_transaction_id": "d9e65ab3-0c89-4d0b-b501-3ea7687505e3",
+                "settlement": {
+                    "amount": "20000",
+                    "final": true,
+                    "denomination": "VND",
+                    "target_account_id": "880000560",
+                    "internal_account_id": "245990053",
+                    "require_pre_posting_hook_execution": false
+                },
+                "pics": [],
+                "instruction_details": {
+                    "auth_code": "666666",
+                    "card_number": "123456XXXX1234",
+                    "channel": "ECOM",
+                    "currency": "VND",
+                    "customer_number": "",
+                    "mcc": "4210",
+                    "reference_number": "123456789123",
+                    "rtf_type": "AUTHORIZED"
+                },
+                "committed_postings": [
+                    {
+                        "credit": true,
+                        "amount": "20000",
+                        "denomination": "VND",
+                        "account_id": "880000560",
+                        "account_address": "DEFAULT",
+                        "asset": "COMMERCIAL_BANK_MONEY",
+                        "phase": "POSTING_PHASE_PENDING_OUTGOING"
+                    },
+                    {
+                        "credit": false,
+                        "amount": "20000",
+                        "denomination": "VND",
+                        "account_id": "245990053",
+                        "account_address": "DEFAULT",
+                        "asset": "COMMERCIAL_BANK_MONEY",
+                        "phase": "POSTING_PHASE_PENDING_OUTGOING"
+                    },
+                    {
+                        "credit": false,
+                        "amount": "20000",
+                        "denomination": "VND",
+                        "account_id": "880000560",
+                        "account_address": "DEFAULT",
+                        "asset": "COMMERCIAL_BANK_MONEY",
+                        "phase": "POSTING_PHASE_COMMITTED"
+                    },
+                    {
+                        "credit": true,
+                        "amount": "20000",
+                        "denomination": "VND",
+                        "account_id": "245990053",
+                        "account_address": "DEFAULT",
+                        "asset": "COMMERCIAL_BANK_MONEY",
+                        "phase": "POSTING_PHASE_COMMITTED"
+                    }
+                ],
+                "posting_violations": [],
+                "account_violations": [],
+                "restriction_violations": [],
+                "contract_violations": [],
+                "override": {"restrictions": {"all": false, "restriction_set_ids": []}},
+                "transaction_code": null
+            }
+        ],
+        "batch_details": {},
+        "value_timestamp": "2023-10-11T04:48:09.833Z",
+        "status": "POSTING_INSTRUCTION_BATCH_STATUS_ACCEPTED",
+        "error": null,
+        "insertion_timestamp": "2023-10-11T04:48:10.084571Z",
+        "dry_run": false
+    },
+    "technical_metadata": {
+        "event_id": "event_1d60b1b7-80d2-438a-bc6c-d536c95781a8",
+        "capture_timestamp": "2023-10-11T04:48:10.117383289Z",
+        "vault_version": {"major": 4, "minor": 5, "patch": 3, "label": ""},
+        "context": {}
+    },
+    "update_mask": {"paths": ["posting_instruction_batch", "technical_metadata"]},
+    "event_id": "2f6e1025-2eb8-4536-9c82-e441ba382bdbcard_transactions",
+    "vault_version": {"major": 4, "minor": 5, "patch": 3, "label": ""},
+    "timestamp": "2023-10-11T04:48:10.084571Z",
+    "change_id": "0"
+}
+	

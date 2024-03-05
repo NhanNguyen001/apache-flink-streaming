@@ -1,0 +1,139 @@
+{
+  "posting_instruction_batch": {
+    "id": "190ff512-0744-4613-a164-5a831172a3a9",
+    "create_request_id": "SETTLEMENTFT24012400000024",
+    "client_id": "interbank_transfer",
+    "client_batch_id": "FT24012400000024",
+    "posting_instructions": [
+      {
+        "id": "36c0d7eb-7ef2-41f0-a850-9e1ae7516dce",
+        "client_transaction_id": "FT24012400000024_0",
+        "inbound_hard_settlement": {
+          "amount": "3000000",
+          "denomination": "VND",
+          "target_account": {
+            "account_id": "880000993"
+          },
+          "internal_account_id": "251990004.00",
+          "advice": false,
+          "target_account_id": "880000993"
+        },
+        "pics": [],
+        "instruction_details": {
+          "X-Request-ID": "cac657ed-1204-496a-b066-861f66d9d80d",
+          "X-Service-Name": "payment-integration-service",
+          "auth_code": "684456",
+          "bank_code": "970437",
+          "banking_product": "MONEY TRANSFER",
+          "beneficiary_party_id": "66000911",
+          "channel": "HDB",
+          "created_date": "2024-01-24T03:30:10.321885925",
+          "currency": "VND",
+          "force_post": "false",
+          "from_account": "002704070012818",
+          "is_fee": "false",
+          "narrative": "LUU  HA  8176 chuyen tien",
+          "receiver_name": "NGUYEN ANH NAM",
+          "reference_number": "559318",
+          "rtf_posting_type": "SETTLEMENT",
+          "rtf_type": "CASA",
+          "sender_name": "LUU  HA  8176",
+          "to_account": "880000993",
+          "trans_type_name": "[CASH-IN] HDBANK TO VIKKI CURRENT ACC",
+          "transaction_code": "HDBANK_TO_VIKKI",
+          "transmission_datetime": "2024-01-24T03:30:10"
+        },
+        "committed_postings": [
+          {
+            "credit": true,
+            "amount": "3000000",
+            "denomination": "VND",
+            "account_id": "880000993",
+            "account_address": "DEFAULT",
+            "asset": "COMMERCIAL_BANK_MONEY",
+            "phase": "POSTING_PHASE_COMMITTED"
+          },
+          {
+            "credit": false,
+            "amount": "3000000",
+            "denomination": "VND",
+            "account_id": "251990004.00",
+            "account_address": "DEFAULT",
+            "asset": "COMMERCIAL_BANK_MONEY",
+            "phase": "POSTING_PHASE_COMMITTED"
+          }
+        ],
+        "posting_violations": [],
+        "account_violations": [],
+        "restriction_violations": [],
+        "contract_violations": [],
+        "override": {
+          "restrictions": {
+            "all": false,
+            "restriction_set_ids": []
+          }
+        },
+        "transaction_code": {
+          "domain": "PMNT",
+          "family": "RRCT",
+          "subfamily": "HDBA"
+        }
+      }
+    ],
+    "batch_details": {
+      "X-Request-ID": "cac657ed-1204-496a-b066-861f66d9d80d",
+      "X-Service-Name": "payment-integration-service",
+      "auth_code": "684456",
+      "bank_code": "970437",
+      "banking_product": "MONEY TRANSFER",
+      "beneficiary_party_id": "66000911",
+      "channel": "HDB",
+      "created_date": "2024-01-24T03:30:10.321885925",
+      "currency": "VND",
+      "force_post": "false",
+      "from_account": "002704070012818",
+      "is_fee": "false",
+      "narrative": "LUU  HA  8176 chuyen tien",
+      "receiver_name": "NGUYEN ANH NAM",
+      "reference_number": "559318",
+      "rtf_posting_type": "SETTLEMENT",
+      "rtf_type": "CASA",
+      "sender_name": "LUU  HA  8176",
+      "to_account": "880000993",
+      "trans_type_name": "[CASH-IN] HDBANK TO VIKKI CURRENT ACC",
+      "transaction_code": "HDBANK_TO_VIKKI",
+      "transmission_datetime": "2024-01-24T03:30:10"
+    },
+    "value_timestamp": "2024-01-24T03:30:10.631637Z",
+    "status": "POSTING_INSTRUCTION_BATCH_STATUS_ACCEPTED",
+    "error": null,
+    "insertion_timestamp": "2024-01-24T03:30:10.631637Z",
+    "dry_run": false
+  },
+  "technical_metadata": {
+    "event_id": "event_190ff512-0744-4613-a164-5a831172a3a9",
+    "capture_timestamp": "2024-01-24T03:30:10.660462997Z",
+    "vault_version": {
+      "major": 4,
+      "minor": 6,
+      "patch": 11,
+      "label": ""
+    },
+    "context": {}
+  },
+  "update_mask": {
+    "paths": [
+      "posting_instruction_batch",
+      "technical_metadata"
+    ]
+  },
+  "event_id": "SETTLEMENTFT24012400000024interbank_transfer",
+  "vault_version": {
+    "major": 4,
+    "minor": 6,
+    "patch": 11,
+    "label": ""
+  },
+  "timestamp": "2024-01-24T03:30:10.631637Z",
+  "change_id": "0"
+}

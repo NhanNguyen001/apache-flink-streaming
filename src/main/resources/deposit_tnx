@@ -1,0 +1,41 @@
+SELECT 
+    p.SYM_RUN_DATE,  
+    BRANCH_NO,  
+    CLIENT_NO,  
+    CLIENT_NAME,  
+    p.ACCT_NO,  
+    ACCT_TYPE,  
+    ACCT_TYPE_DESC,  
+    CURRENCY,  
+    TRAN_DATE,  
+    TRAN_DATE_TIME,  
+    TRAN_TYPE,  
+    p.TRANS_ID as TRANSACTION_NO,  
+    POST_DATE,  
+    POST_STATUS,  
+    REVERSAL_TRAN_TYPE,  
+    REVERSAL_DATE,  
+    SOURCE_TYPE,  
+    GL_CODE,  
+    ab.SODU_NT-PSCOPSNO as PREVIOUS_BAL_AMT,  
+    DEBIT_CREDIT_IND,  
+    PSNO,  
+    PSCO,  
+    ab.SODU_NT as ACTUAL_BAL_AMT,  
+    OFFICER_ID,  
+    PROFIT_CENTRE,  
+    NARRATIVE, 
+    p.ID
+        FROM (
+            SELECT *, concat(POSTING_ID, ACCT_NO) as ID 
+            FROM TABLE(HOP(TABLE POSTING_INSTRUCTION, DESCRIPTOR(VALUE_TIMESTAMP), INTERVAL '5' MINUTES, INTERVAL '10' MINUTES))
+        ) p
+        JOIN (
+            SELECT *, concat(POSTING_ID, ACCOUNT_ID) as ID 
+            FROM TABLE(HOP(TABLE ACCOUNT_BALANCE, DESCRIPTOR(VALUE_TIMESTAMP), INTERVAL '5' MINUTES, INTERVAL '10' MINUTES))
+        ) ab
+            ON p.ID = ab.ID AND p.window_start = ab.window_start AND p.window_end = ab.window_end
+        JOIN  ACCOUNT_EVENT AS ae  
+            ON p.ACCT_NO = ae.ACCT_NO  
+
+    
