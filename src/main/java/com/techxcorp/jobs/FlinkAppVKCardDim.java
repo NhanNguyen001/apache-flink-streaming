@@ -1,4 +1,4 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,8 +24,8 @@ import org.apache.kafka.clients.consumer.OffsetResetStrategy;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MessageDeserializerJson;
-import com.techxcorp.mapping.VKCardDimMapping;
+import com.nhannt22.SerDes.MessageDeserializerJson;
+import com.nhannt22.mapping.VKCardDimMapping;
 
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.secretsmanager.SecretsManagerClient;

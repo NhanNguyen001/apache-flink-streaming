@@ -1,7 +1,7 @@
-package com.techxcorp.utils;
+package com.nhannt22.utils;
 
-import com.techxcorp.SerDes.MessageDeserializerJson;
-import com.techxcorp.exception.FlinkException;
+import com.nhannt22.SerDes.MessageDeserializerJson;
+import com.nhannt22.exception.FlinkException;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsInitializer;
 import org.apache.flink.table.api.Schema;

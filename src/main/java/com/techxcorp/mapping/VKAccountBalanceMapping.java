@@ -1,4 +1,4 @@
-package com.techxcorp.mapping;
+package com.nhannt22.mapping;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -15,7 +15,7 @@ import org.apache.flink.types.RowKind;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MappingFunctionJson;
+import com.nhannt22.SerDes.MappingFunctionJson;
 
 public class VKAccountBalanceMapping implements MappingFunctionJson {
         // raw_tm.vault.core_api.v1.balances.account_balance.events

@@ -1,10 +1,10 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import com.google.gson.JsonElement;
-import com.techxcorp.table.saokevonduydong.job.FlinkAppSaoKeVonHuyDong;
-import com.techxcorp.table.saokevonduydong.mapping.AccountCreatedMapping;
-import com.techxcorp.table.saokevonduydong.schema.AccountCreatedSchema;
-import com.techxcorp.table.saokevonduydong.schema.SaokeVonHuyDongSchema;
+import com.nhannt22.table.saokevonduydong.job.FlinkAppSaoKeVonHuyDong;
+import com.nhannt22.table.saokevonduydong.mapping.AccountCreatedMapping;
+import com.nhannt22.table.saokevonduydong.schema.AccountCreatedSchema;
+import com.nhannt22.table.saokevonduydong.schema.SaokeVonHuyDongSchema;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.Table;
@@ -22,7 +22,7 @@ import java.nio.file.Paths;
 import java.time.ZoneId;
 import java.util.List;
 
-import static com.techxcorp.utils.JsonUtils.parseJson;
+import static com.nhannt22.utils.JsonUtils.parseJson;
 
 public class SaokeVonhuydongTest {
 

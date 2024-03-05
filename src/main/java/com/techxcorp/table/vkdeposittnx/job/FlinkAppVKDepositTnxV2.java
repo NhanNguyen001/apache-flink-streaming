@@ -1,11 +1,11 @@
-package com.techxcorp.table.vkdeposittnx.job;
+package com.nhannt22.table.vkdeposittnx.job;
 
-import com.techxcorp.table.vkdeposittnx.mapping.AccountBalanceVkDepositTnxMapping;
-import com.techxcorp.table.vkdeposittnx.mapping.PostingVkDepositTnxMapping;
-import com.techxcorp.table.vkdeposittnx.schema.AccountBalanceTnxSchema;
-import com.techxcorp.table.vkdeposittnx.schema.PostingInstructionTnxSchema;
-import com.techxcorp.table.vkdeposittnx.schema.VKDepositTnxSchema;
-import com.techxcorp.utils.KafkaUtils;
+import com.nhannt22.table.vkdeposittnx.mapping.AccountBalanceVkDepositTnxMapping;
+import com.nhannt22.table.vkdeposittnx.mapping.PostingVkDepositTnxMapping;
+import com.nhannt22.table.vkdeposittnx.schema.AccountBalanceTnxSchema;
+import com.nhannt22.table.vkdeposittnx.schema.PostingInstructionTnxSchema;
+import com.nhannt22.table.vkdeposittnx.schema.VKDepositTnxSchema;
+import com.nhannt22.utils.KafkaUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.streaming.api.datastream.DataStream;
@@ -20,11 +20,11 @@ import java.time.ZoneId;
 import java.util.Map;
 import java.util.Properties;
 
-import static com.techxcorp.constant.RawTopicConstant.RAW_TOPIC_ACCOUNT_BALANCE;
-import static com.techxcorp.constant.RawTopicConstant.RAW_TOPIC_POSTING_INSTRUCTION;
-import static com.techxcorp.utils.FileUtils.readFilePropertiers;
-import static com.techxcorp.utils.KafkaUtils.getConfigKafka;
-import static com.techxcorp.utils.KafkaUtils.initKafkaTopic;
+import static com.nhannt22.constant.RawTopicConstant.RAW_TOPIC_ACCOUNT_BALANCE;
+import static com.nhannt22.constant.RawTopicConstant.RAW_TOPIC_POSTING_INSTRUCTION;
+import static com.nhannt22.utils.FileUtils.readFilePropertiers;
+import static com.nhannt22.utils.KafkaUtils.getConfigKafka;
+import static com.nhannt22.utils.KafkaUtils.initKafkaTopic;
 
 public class FlinkAppVKDepositTnxV2 {
 

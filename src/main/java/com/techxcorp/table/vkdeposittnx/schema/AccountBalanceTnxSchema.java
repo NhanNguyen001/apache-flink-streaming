@@ -1,15 +1,15 @@
-package com.techxcorp.table.vkdeposittnx.schema;
+package com.nhannt22.table.vkdeposittnx.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_NT;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_QD;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ACCOUNT_ID;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.VALUE_TIMESTAMP;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ID;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.PHASE;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_NT;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_QD;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ACCOUNT_ID;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ID;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.PHASE;
 
 public class AccountBalanceTnxSchema {
     public static Schema schema() {

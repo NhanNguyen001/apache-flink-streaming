@@ -1,4 +1,4 @@
-package com.techxcorp.mapping;
+package com.nhannt22.mapping;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,12 +1,12 @@
-package com.techxcorp.metadata;
+package com.nhannt22.metadata;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.techxcorp.utils.FileUtils;
+import com.nhannt22.utils.FileUtils;
 
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-import static com.techxcorp.utils.JsonUtils.fromJsonArray;
+import static com.nhannt22.utils.JsonUtils.fromJsonArray;
 
 public class AccountTypeMapping {
     private final List<AccountTypeDto> accountTypes;

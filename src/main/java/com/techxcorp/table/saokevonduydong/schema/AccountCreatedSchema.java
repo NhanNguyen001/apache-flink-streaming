@@ -1,26 +1,26 @@
-package com.techxcorp.table.saokevonduydong.schema;
+package com.nhannt22.table.saokevonduydong.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.ACCT_NO;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.CLIENT_NO;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.LAISUAT;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.LOAI_KYHAN;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.NGAY_MOSO;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.PERIOD;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.PERIOD_TYPE;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.KYHAN_SO;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.LAISUAT_DCV;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.MA_LOAI;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.TEN_CN;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.THI_TRUONG;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.VALUE_TIMESTAMP;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.ID;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.ACCT_OPEN_DATE;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.ACCT_MATURITY_DATE;
-import static com.techxcorp.table.saokevonduydong.columns.AccountCreatedColumns.BRANCH_NO;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.ACCT_NO;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.CLIENT_NO;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.LAISUAT;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.LOAI_KYHAN;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.NGAY_MOSO;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.PERIOD;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.PERIOD_TYPE;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.KYHAN_SO;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.LAISUAT_DCV;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.MA_LOAI;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.TEN_CN;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.THI_TRUONG;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.ID;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.ACCT_OPEN_DATE;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.ACCT_MATURITY_DATE;
+import static com.nhannt22.table.saokevonduydong.columns.AccountCreatedColumns.BRANCH_NO;
 
 
 public class AccountCreatedSchema {

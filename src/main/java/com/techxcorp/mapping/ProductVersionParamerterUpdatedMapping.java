@@ -1,4 +1,4 @@
-package com.techxcorp.mapping;
+package com.nhannt22.mapping;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -14,7 +14,7 @@ import org.apache.flink.types.RowKind;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MappingFunctionJson;
+import com.nhannt22.SerDes.MappingFunctionJson;
 
 public class ProductVersionParamerterUpdatedMapping implements MappingFunctionJson {
         // raw_tm.vault.api.v1.products.product_version.parameter.updated

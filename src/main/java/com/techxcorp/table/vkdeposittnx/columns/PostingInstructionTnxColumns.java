@@ -1,4 +1,4 @@
-package com.techxcorp.table.vkdeposittnx.columns;
+package com.nhannt22.table.vkdeposittnx.columns;
 
 public interface PostingInstructionTnxColumns {
     String SYM_RUN_DATE = "SYM_RUN_DATE";

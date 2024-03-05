@@ -1,4 +1,4 @@
-package com.techxcorp.SerDes;
+package com.nhannt22.SerDes;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;

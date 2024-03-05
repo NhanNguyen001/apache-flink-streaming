@@ -1,36 +1,36 @@
-package com.techxcorp.table.vkdeposittnx.schema;
+package com.nhannt22.table.vkdeposittnx.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.BRANCH_NO;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.CLIENT_NAME;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.CLIENT_NO;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.ACCT_NO;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.ACCT_TYPE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.ACCT_TYPE_DESC;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.CURRENCY;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.TRAN_DATE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.TRAN_DATE_TIME;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.TRAN_TYPE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.TRANSACTION_NO;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.POST_DATE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.POST_STATUS;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.REVERSAL_TRAN_TYPE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.REVERSAL_DATE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.SOURCE_TYPE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.GL_CODE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.PREVIOUS_BAL_AMT;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.DEBIT_CREDIT_IND;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.PSNO;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.PSCO;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.ACTUAL_BAL_AMT;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.OFFICER_ID;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.PROFIT_CENTRE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.NARRATIVE;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.POSTING_ID;
-import static com.techxcorp.table.vkdeposittnx.columns.VKDepositTnxColumns.SYNC_DATETIME_PROCCES;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.BRANCH_NO;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.CLIENT_NAME;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.CLIENT_NO;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.ACCT_NO;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.ACCT_TYPE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.ACCT_TYPE_DESC;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.CURRENCY;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.TRAN_DATE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.TRAN_DATE_TIME;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.TRAN_TYPE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.TRANSACTION_NO;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.POST_DATE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.POST_STATUS;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.REVERSAL_TRAN_TYPE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.REVERSAL_DATE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.SOURCE_TYPE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.GL_CODE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.PREVIOUS_BAL_AMT;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.DEBIT_CREDIT_IND;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.PSNO;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.PSCO;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.ACTUAL_BAL_AMT;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.OFFICER_ID;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.PROFIT_CENTRE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.NARRATIVE;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.POSTING_ID;
+import static com.nhannt22.table.vkdeposittnx.columns.VKDepositTnxColumns.SYNC_DATETIME_PROCCES;
 
 public class VKDepositTnxSchema {
     public static Schema schema(){

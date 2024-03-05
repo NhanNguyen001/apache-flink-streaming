@@ -1,4 +1,4 @@
-package com.techxcorp.metadata;
+package com.nhannt22.metadata;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

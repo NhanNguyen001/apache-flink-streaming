@@ -1,4 +1,4 @@
-package com.techxcorp.table.vkdepositbal.dto;
+package com.nhannt22.table.vkdepositbal.dto;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;

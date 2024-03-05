@@ -1,18 +1,18 @@
-package com.techxcorp.table.vkdepositbal.schema;
+package com.nhannt22.table.vkdepositbal.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.ACCT_NO;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.AMOUNT;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.GL_CODE_DUCHI;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.ID;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.LOAI_TIEN;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.NARRATIVE;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.TRANS_ID;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.TRAN_DATE_TIME;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.ACCT_NO;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.AMOUNT;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.GL_CODE_DUCHI;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.ID;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.LOAI_TIEN;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.NARRATIVE;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.TRANS_ID;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.TRAN_DATE_TIME;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.VALUE_TIMESTAMP;
 
 public class PostingInstructionSchema {
     public static Schema schema() {

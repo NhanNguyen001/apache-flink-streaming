@@ -1,4 +1,4 @@
-package com.techxcorp.exception;
+package com.nhannt22.exception;
 
 public class FlinkException extends RuntimeException{
     public FlinkException(String message){

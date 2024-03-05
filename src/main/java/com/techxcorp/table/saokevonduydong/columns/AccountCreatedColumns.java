@@ -1,4 +1,4 @@
-package com.techxcorp.table.saokevonduydong.columns;
+package com.nhannt22.table.saokevonduydong.columns;
 
 public interface AccountCreatedColumns {
 

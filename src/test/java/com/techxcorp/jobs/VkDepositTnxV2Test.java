@@ -1,13 +1,13 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import com.techxcorp.table.vkdepositbal.schema.VKDepositBalSchema;
-import com.techxcorp.table.vkdeposittnx.job.FlinkAppVKDepositTnxV2;
-import com.techxcorp.table.vkdeposittnx.mapping.AccountBalanceVkDepositTnxMapping;
-import com.techxcorp.table.vkdeposittnx.mapping.PostingVkDepositTnxMapping;
-import com.techxcorp.table.vkdeposittnx.schema.AccountBalanceTnxSchema;
-import com.techxcorp.table.vkdeposittnx.schema.PostingInstructionTnxSchema;
+import com.nhannt22.table.vkdepositbal.schema.VKDepositBalSchema;
+import com.nhannt22.table.vkdeposittnx.job.FlinkAppVKDepositTnxV2;
+import com.nhannt22.table.vkdeposittnx.mapping.AccountBalanceVkDepositTnxMapping;
+import com.nhannt22.table.vkdeposittnx.mapping.PostingVkDepositTnxMapping;
+import com.nhannt22.table.vkdeposittnx.schema.AccountBalanceTnxSchema;
+import com.nhannt22.table.vkdeposittnx.schema.PostingInstructionTnxSchema;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.Table;

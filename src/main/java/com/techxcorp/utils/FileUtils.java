@@ -1,8 +1,8 @@
-package com.techxcorp.utils;
+package com.nhannt22.utils;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.techxcorp.exception.FlinkException;
-import com.techxcorp.metadata.InternalAccountDto;
+import com.nhannt22.exception.FlinkException;
+import com.nhannt22.metadata.InternalAccountDto;
 
 import java.io.IOException;
 import java.io.InputStream;

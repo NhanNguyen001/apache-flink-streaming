@@ -1,4 +1,4 @@
-package com.techxcorp.constant;
+package com.nhannt22.constant;
 
 /**
  * Define topic listen raw data tm

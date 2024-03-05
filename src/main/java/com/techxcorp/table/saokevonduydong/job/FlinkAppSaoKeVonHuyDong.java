@@ -1,10 +1,10 @@
-package com.techxcorp.table.saokevonduydong.job;
+package com.nhannt22.table.saokevonduydong.job;
 
-import com.techxcorp.exception.FlinkException;
-import com.techxcorp.table.saokevonduydong.mapping.AccountCreatedMapping;
-import com.techxcorp.table.saokevonduydong.schema.AccountCreatedSchema;
-import com.techxcorp.table.saokevonduydong.schema.SaokeVonHuyDongSchema;
-import com.techxcorp.utils.KafkaUtils;
+import com.nhannt22.exception.FlinkException;
+import com.nhannt22.table.saokevonduydong.mapping.AccountCreatedMapping;
+import com.nhannt22.table.saokevonduydong.schema.AccountCreatedSchema;
+import com.nhannt22.table.saokevonduydong.schema.SaokeVonHuyDongSchema;
+import com.nhannt22.utils.KafkaUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.streaming.api.datastream.DataStream;
@@ -19,10 +19,10 @@ import java.time.ZoneId;
 import java.util.Map;
 import java.util.Properties;
 
-import static com.techxcorp.constant.RawTopicConstant.RAW_TOPIC_ACCOUNT_CREATED;
-import static com.techxcorp.utils.FileUtils.readFilePropertiers;
-import static com.techxcorp.utils.KafkaUtils.getConfigKafka;
-import static com.techxcorp.utils.KafkaUtils.initKafkaTopic;
+import static com.nhannt22.constant.RawTopicConstant.RAW_TOPIC_ACCOUNT_CREATED;
+import static com.nhannt22.utils.FileUtils.readFilePropertiers;
+import static com.nhannt22.utils.KafkaUtils.getConfigKafka;
+import static com.nhannt22.utils.KafkaUtils.initKafkaTopic;
 import static java.lang.String.format;
 
 public class FlinkAppSaoKeVonHuyDong {

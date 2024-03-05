@@ -1,13 +1,13 @@
-package com.techxcorp.table.vkdepositbal.mapping;
+package com.nhannt22.table.vkdepositbal.mapping;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MappingFunctionJson;
-import com.techxcorp.mapping.TranTypeMapping;
-import com.techxcorp.table.vkdepositbal.dto.CommittedPostingDto;
-import com.techxcorp.utils.DataUtils;
-import com.techxcorp.utils.JsonUtils;
+import com.nhannt22.SerDes.MappingFunctionJson;
+import com.nhannt22.mapping.TranTypeMapping;
+import com.nhannt22.table.vkdepositbal.dto.CommittedPostingDto;
+import com.nhannt22.utils.DataUtils;
+import com.nhannt22.utils.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.api.common.typeinfo.Types;
@@ -21,21 +21,21 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.ACCT_NO;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.AMOUNT;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.GL_CODE_DUCHI;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.ID;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.LOAI_TIEN;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.NARRATIVE;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.TRANS_ID;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.TRAN_DATE_TIME;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.VALUE_TIMESTAMP;
-import static com.techxcorp.utils.DataUtils.getDataStreamValid;
-import static com.techxcorp.utils.DataUtils.isDataValid;
-import static com.techxcorp.utils.JsonUtils.concatBtcCode;
-import static com.techxcorp.utils.JsonUtils.getDataJsonObject;
-import static com.techxcorp.utils.JsonUtils.getDataString;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.ACCT_NO;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.AMOUNT;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.GL_CODE_DUCHI;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.ID;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.LOAI_TIEN;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.NARRATIVE;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.TRANS_ID;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.TRAN_DATE_TIME;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.utils.DataUtils.getDataStreamValid;
+import static com.nhannt22.utils.DataUtils.isDataValid;
+import static com.nhannt22.utils.JsonUtils.concatBtcCode;
+import static com.nhannt22.utils.JsonUtils.getDataJsonObject;
+import static com.nhannt22.utils.JsonUtils.getDataString;
 
 public class PostingVkDepositBalMapping implements MappingFunctionJson {
 

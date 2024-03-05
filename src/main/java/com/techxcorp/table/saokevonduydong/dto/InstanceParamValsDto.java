@@ -1,4 +1,4 @@
-package com.techxcorp.table.saokevonduydong.dto;
+package com.nhannt22.table.saokevonduydong.dto;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.techxcorp.mapping;
+package com.nhannt22.mapping;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -19,7 +19,7 @@ import org.apache.flink.types.RowKind;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MappingFunctionJson;
+import com.nhannt22.SerDes.MappingFunctionJson;
 
 public class VKCardDimMapping implements MappingFunctionJson {
         // raw_party.sit.party_service.create

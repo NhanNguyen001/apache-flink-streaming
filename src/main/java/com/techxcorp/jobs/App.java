@@ -1,13 +1,13 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import java.io.IOException;
 import java.util.Map;
 import java.util.Properties;
 
 import com.amazonaws.services.kinesisanalytics.runtime.KinesisAnalyticsRuntime;
-import com.techxcorp.table.saokevonduydong.job.FlinkAppSaoKeVonHuyDong;
-import com.techxcorp.table.vkdepositbal.job.FlinkAppVKDepositBalV2;
-import com.techxcorp.table.vkdeposittnx.job.FlinkAppVKDepositTnxV2;
+import com.nhannt22.table.saokevonduydong.job.FlinkAppSaoKeVonHuyDong;
+import com.nhannt22.table.vkdepositbal.job.FlinkAppVKDepositBalV2;
+import com.nhannt22.table.vkdeposittnx.job.FlinkAppVKDepositTnxV2;
 
 public class App {
     public static void main(String[] args) {

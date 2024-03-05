@@ -1,4 +1,4 @@
-package com.techxcorp.function;
+package com.nhannt22.function;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

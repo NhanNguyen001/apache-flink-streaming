@@ -1,4 +1,4 @@
-package com.techxcorp.table.vkdepositbal.columns;
+package com.nhannt22.table.vkdepositbal.columns;
 
 public interface VKDepositBalColumns {
     String SYM_RUN_DATE = "SYM_RUN_DATE";

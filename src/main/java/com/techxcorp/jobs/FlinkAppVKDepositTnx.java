@@ -1,4 +1,4 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -30,9 +30,9 @@ import software.amazon.awssdk.services.secretsmanager.model.GetSecretValueRespon
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MessageDeserializerJson;
-import com.techxcorp.mapping.PostingInstructionBatchMapping;
-import com.techxcorp.mapping.VKAccountBalanceMapping;
+import com.nhannt22.SerDes.MessageDeserializerJson;
+import com.nhannt22.mapping.PostingInstructionBatchMapping;
+import com.nhannt22.mapping.VKAccountBalanceMapping;
 
 public class FlinkAppVKDepositTnx {
 

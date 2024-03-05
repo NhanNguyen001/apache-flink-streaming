@@ -1,4 +1,4 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -16,7 +16,7 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.techxcorp.mapping.TranTypeMapping;
+import com.nhannt22.mapping.TranTypeMapping;
 public class AppTest {
 
     public  String readFile(String path, Charset encoding) throws IOException

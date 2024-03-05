@@ -1,4 +1,4 @@
-package com.techxcorp.SerDes;
+package com.nhannt22.SerDes;
 
 import java.util.List;
 

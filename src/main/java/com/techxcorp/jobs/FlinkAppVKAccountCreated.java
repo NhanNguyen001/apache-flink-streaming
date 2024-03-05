@@ -1,4 +1,4 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -21,8 +21,8 @@ import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.OffsetResetStrategy;
 
-import com.techxcorp.SerDes.MessageDeserializerJson;
-import com.techxcorp.mapping.VKAccountEventsMapping;
+import com.nhannt22.SerDes.MessageDeserializerJson;
+import com.nhannt22.mapping.VKAccountEventsMapping;
 
 public class FlinkAppVKAccountCreated {
 

@@ -1,4 +1,4 @@
-package com.techxcorp.table.vkdeposittnx.columns;
+package com.nhannt22.table.vkdeposittnx.columns;
 
 public interface AccountBalanceTnxColumns {
 

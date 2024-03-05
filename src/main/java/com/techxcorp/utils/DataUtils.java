@@ -1,6 +1,6 @@
-package com.techxcorp.utils;
+package com.nhannt22.utils;
 
-import com.techxcorp.metadata.InternalAccountDto;
+import com.nhannt22.metadata.InternalAccountDto;
 import org.apache.commons.lang3.StringUtils;
 
 import java.time.LocalDate;
@@ -9,7 +9,7 @@ import java.time.LocalTime;
 import java.time.YearMonth;
 import java.util.List;
 
-import static com.techxcorp.utils.DateUtils.toVietNameTimeZone;
+import static com.nhannt22.utils.DateUtils.toVietNameTimeZone;
 
 public class DataUtils {
 

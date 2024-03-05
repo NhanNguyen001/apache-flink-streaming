@@ -1,26 +1,26 @@
-package com.techxcorp.table.saokevonduydong.schema;
+package com.nhannt22.table.saokevonduydong.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.NGAY_MOSO;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.ACCT_NO;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.CLIENT_NO;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.KYHAN_SO;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.LAISUAT;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.LAISUAT_DCV;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.LOAI_KYHAN;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.MA_LOAI;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.PERIOD;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.PERIOD_TYPE;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.SYNC_DATETIME_PROCCES;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.TEN_CN;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.THI_TRUONG;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.ID;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.ACCT_OPEN_DATE;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.ACCT_MATURITY_DATE;
-import static com.techxcorp.table.saokevonduydong.columns.SaokeVonhuydongColumns.BRANCH_NO;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.NGAY_MOSO;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.ACCT_NO;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.CLIENT_NO;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.KYHAN_SO;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.LAISUAT;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.LAISUAT_DCV;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.LOAI_KYHAN;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.MA_LOAI;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.PERIOD;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.PERIOD_TYPE;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.SYNC_DATETIME_PROCCES;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.TEN_CN;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.THI_TRUONG;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.ID;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.ACCT_OPEN_DATE;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.ACCT_MATURITY_DATE;
+import static com.nhannt22.table.saokevonduydong.columns.SaokeVonhuydongColumns.BRANCH_NO;
 
 
 public class SaokeVonHuyDongSchema {

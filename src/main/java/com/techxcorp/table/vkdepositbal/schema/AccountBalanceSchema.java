@@ -1,12 +1,12 @@
-package com.techxcorp.table.vkdepositbal.schema;
+package com.nhannt22.table.vkdepositbal.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.vkdepositbal.columns.AccountBalanceColumns.ID;
-import static com.techxcorp.table.vkdepositbal.columns.AccountBalanceColumns.SODU_NT;
-import static com.techxcorp.table.vkdepositbal.columns.AccountBalanceColumns.SODU_QD;
-import static com.techxcorp.table.vkdepositbal.columns.AccountBalanceColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.table.vkdepositbal.columns.AccountBalanceColumns.ID;
+import static com.nhannt22.table.vkdepositbal.columns.AccountBalanceColumns.SODU_NT;
+import static com.nhannt22.table.vkdepositbal.columns.AccountBalanceColumns.SODU_QD;
+import static com.nhannt22.table.vkdepositbal.columns.AccountBalanceColumns.VALUE_TIMESTAMP;
 
 public class AccountBalanceSchema {
     public static Schema schema() {

@@ -1,12 +1,12 @@
-package com.techxcorp.table.vkdeposittnx.mapping;
+package com.nhannt22.table.vkdeposittnx.mapping;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.techxcorp.SerDes.MappingFunctionJson;
-import com.techxcorp.table.vkdeposittnx.dto.AccountBalanceTnxDto;
-import com.techxcorp.utils.DataUtils;
-import com.techxcorp.utils.JsonUtils;
+import com.nhannt22.SerDes.MappingFunctionJson;
+import com.nhannt22.table.vkdeposittnx.dto.AccountBalanceTnxDto;
+import com.nhannt22.utils.DataUtils;
+import com.nhannt22.utils.JsonUtils;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.types.Row;
@@ -19,16 +19,16 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_NT;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_QD;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ACCOUNT_ID;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.VALUE_TIMESTAMP;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ID;
-import static com.techxcorp.table.vkdeposittnx.columns.AccountBalanceTnxColumns.PHASE;
-import static com.techxcorp.utils.DataUtils.getDataStreamValid;
-import static com.techxcorp.utils.DataUtils.isDataValid;
-import static com.techxcorp.utils.JsonUtils.getDataString;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_NT;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.SODU_QD;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ACCOUNT_ID;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.ID;
+import static com.nhannt22.table.vkdeposittnx.columns.AccountBalanceTnxColumns.PHASE;
+import static com.nhannt22.utils.DataUtils.getDataStreamValid;
+import static com.nhannt22.utils.DataUtils.isDataValid;
+import static com.nhannt22.utils.JsonUtils.getDataString;
 
 public class AccountBalanceVkDepositTnxMapping implements MappingFunctionJson {
 

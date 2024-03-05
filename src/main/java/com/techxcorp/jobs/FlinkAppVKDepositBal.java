@@ -1,4 +1,4 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import static org.apache.flink.table.api.Expressions.$;
 
@@ -25,9 +25,9 @@ import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.consumer.OffsetResetStrategy;
 
-import com.techxcorp.SerDes.MessageDeserializerJson;
-import com.techxcorp.mapping.PostingInstructionBatchMapping;
-import com.techxcorp.mapping.VKAccountBalanceMapping;
+import com.nhannt22.SerDes.MessageDeserializerJson;
+import com.nhannt22.mapping.PostingInstructionBatchMapping;
+import com.nhannt22.mapping.VKAccountBalanceMapping;
 
 public class FlinkAppVKDepositBal {
 

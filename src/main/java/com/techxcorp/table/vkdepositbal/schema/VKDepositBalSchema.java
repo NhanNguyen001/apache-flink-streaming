@@ -1,21 +1,21 @@
-package com.techxcorp.table.vkdepositbal.schema;
+package com.nhannt22.table.vkdepositbal.schema;
 
 import org.apache.flink.table.api.DataTypes;
 import org.apache.flink.table.api.Schema;
 
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.SYNC_DATETIME_PROCCES;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.ACCT_NO;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.ACTUAL_BAL;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.AMOUNT;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.GL_CODE_DUCHI;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.ID;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.LOAI_TIEN;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.NARRATIVE;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.SODU_NT;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.SODU_QD;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.TRAN_DATE_TIME;
-import static com.techxcorp.table.vkdepositbal.columns.VKDepositBalColumns.VIKKI_TRANSACTION_ID;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.SYNC_DATETIME_PROCCES;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.ACCT_NO;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.ACTUAL_BAL;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.AMOUNT;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.GL_CODE_DUCHI;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.ID;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.LOAI_TIEN;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.NARRATIVE;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.SODU_NT;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.SODU_QD;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.TRAN_DATE_TIME;
+import static com.nhannt22.table.vkdepositbal.columns.VKDepositBalColumns.VIKKI_TRANSACTION_ID;
 
 public class VKDepositBalSchema {
     public static Schema schema(){

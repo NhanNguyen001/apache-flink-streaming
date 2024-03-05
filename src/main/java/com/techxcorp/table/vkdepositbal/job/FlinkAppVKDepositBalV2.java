@@ -1,12 +1,12 @@
-package com.techxcorp.table.vkdepositbal.job;
+package com.nhannt22.table.vkdepositbal.job;
 
-import com.techxcorp.exception.FlinkException;
-import com.techxcorp.table.vkdepositbal.mapping.AccountBalanceVkDepositBalMapping;
-import com.techxcorp.table.vkdepositbal.mapping.PostingVkDepositBalMapping;
-import com.techxcorp.table.vkdepositbal.schema.AccountBalanceSchema;
-import com.techxcorp.table.vkdepositbal.schema.PostingInstructionSchema;
-import com.techxcorp.table.vkdepositbal.schema.VKDepositBalSchema;
-import com.techxcorp.utils.KafkaUtils;
+import com.nhannt22.exception.FlinkException;
+import com.nhannt22.table.vkdepositbal.mapping.AccountBalanceVkDepositBalMapping;
+import com.nhannt22.table.vkdepositbal.mapping.PostingVkDepositBalMapping;
+import com.nhannt22.table.vkdepositbal.schema.AccountBalanceSchema;
+import com.nhannt22.table.vkdepositbal.schema.PostingInstructionSchema;
+import com.nhannt22.table.vkdepositbal.schema.VKDepositBalSchema;
+import com.nhannt22.utils.KafkaUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.streaming.api.datastream.DataStream;
@@ -21,11 +21,11 @@ import java.time.ZoneId;
 import java.util.Map;
 import java.util.Properties;
 
-import static com.techxcorp.constant.RawTopicConstant.RAW_TOPIC_ACCOUNT_BALANCE;
-import static com.techxcorp.constant.RawTopicConstant.RAW_TOPIC_POSTING_INSTRUCTION;
-import static com.techxcorp.utils.FileUtils.readFilePropertiers;
-import static com.techxcorp.utils.KafkaUtils.getConfigKafka;
-import static com.techxcorp.utils.KafkaUtils.initKafkaTopic;
+import static com.nhannt22.constant.RawTopicConstant.RAW_TOPIC_ACCOUNT_BALANCE;
+import static com.nhannt22.constant.RawTopicConstant.RAW_TOPIC_POSTING_INSTRUCTION;
+import static com.nhannt22.utils.FileUtils.readFilePropertiers;
+import static com.nhannt22.utils.KafkaUtils.getConfigKafka;
+import static com.nhannt22.utils.KafkaUtils.initKafkaTopic;
 import static java.lang.String.format;
 
 public class FlinkAppVKDepositBalV2 {

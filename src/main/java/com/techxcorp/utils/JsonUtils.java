@@ -1,4 +1,4 @@
-package com.techxcorp.utils;
+package com.nhannt22.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;

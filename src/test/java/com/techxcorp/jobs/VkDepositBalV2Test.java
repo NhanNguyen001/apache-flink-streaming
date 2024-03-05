@@ -1,13 +1,13 @@
-package com.techxcorp.jobs;
+package com.nhannt22.jobs;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import com.techxcorp.table.vkdepositbal.job.FlinkAppVKDepositBalV2;
-import com.techxcorp.table.vkdepositbal.mapping.AccountBalanceVkDepositBalMapping;
-import com.techxcorp.table.vkdepositbal.mapping.PostingVkDepositBalMapping;
-import com.techxcorp.table.vkdepositbal.schema.AccountBalanceSchema;
-import com.techxcorp.table.vkdepositbal.schema.PostingInstructionSchema;
-import com.techxcorp.table.vkdepositbal.schema.VKDepositBalSchema;
+import com.nhannt22.table.vkdepositbal.job.FlinkAppVKDepositBalV2;
+import com.nhannt22.table.vkdepositbal.mapping.AccountBalanceVkDepositBalMapping;
+import com.nhannt22.table.vkdepositbal.mapping.PostingVkDepositBalMapping;
+import com.nhannt22.table.vkdepositbal.schema.AccountBalanceSchema;
+import com.nhannt22.table.vkdepositbal.schema.PostingInstructionSchema;
+import com.nhannt22.table.vkdepositbal.schema.VKDepositBalSchema;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.datastream.DataStream;
@@ -26,16 +26,16 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.ACCT_NO;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.AMOUNT;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.GL_CODE_DUCHI;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.ID;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.LOAI_TIEN;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.NARRATIVE;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.SYM_RUN_DATE;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.TRANS_ID;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.TRAN_DATE_TIME;
-import static com.techxcorp.table.vkdepositbal.columns.PostingInstructionColumns.VALUE_TIMESTAMP;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.ACCT_NO;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.AMOUNT;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.GL_CODE_DUCHI;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.ID;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.LOAI_TIEN;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.NARRATIVE;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.SYM_RUN_DATE;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.TRANS_ID;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.TRAN_DATE_TIME;
+import static com.nhannt22.table.vkdepositbal.columns.PostingInstructionColumns.VALUE_TIMESTAMP;
 
 public class VkDepositBalV2Test {
 
